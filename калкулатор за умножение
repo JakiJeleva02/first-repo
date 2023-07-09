@@ -1,0 +1,14 @@
+import java.util.Scanner;
+public class tutorialforjava {
+public static void main(final String[] args)
+{
+Scanner scan = new Scanner(System.in);
+System.out.println("Въведи число 1: ");
+int a = scan.nextInt();
+System.out.println("Въведи число 2: ");
+int b = scan.nextInt();
+int resultat = a * b;
+
+System.out.println("Вашият резултат е: " + resultat);
+}
+}
